@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <meta name="description" content="Página de  acceso al perfil de la academia">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="/img/logo-conquerblocks-color-768x100.png" alt="logo de conquer blocks" height="20">
+            <a href="../index.html">Home</a>
+            <a href="quienes-somos.html">Quiénes somos</a>
+            <a href="cursos.html">Cursos</a>
+            <a href="blog.html">Blog</a>
+            <a href="registro.html">Registro</a>
+            <a href="login.html">Login</a>
+            <a href="contact.html">Contacto</a>
+            <!--Creado sin usar <ul> para que quede de manera horizontal-->
+            <hr>
+        </nav>
+        <main>
+            <h1>Inicio de sesión</h1>
+            <form action="" method="get" enctype="multipart/form-data">
+                <!--method="get" para que no haya problemas cuando se le de a enviar-->
+                <p>
+                    <label for="user">Usuario </label><br>
+                    <input type="text" name="user" id="user" required>
+                </p>
+                <p>
+                    <label for="password">Contraseña</label><br>
+                    <input type="password" name="contraseña" id="password" required>
+                </p>
+                   
+                <button>Acceder</button>
+                <input type="reset" name="reset" value="Borrar">
+                
+            </form>
+        </main>
+        <footer>
+            <hr>
+            <p>&#169 Creado por JRamonCP. 2024. Para conquerblocks <a href="aviso-legal.html">Aviso legal</a></p>
+        </footer>
+    </header>
+</body>
+</html>

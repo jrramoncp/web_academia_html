@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <meta name="description" content="Página de contacto con datos de la academia">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="/img/logo-conquerblocks-color-768x100.png" alt="logo de conquer blocks" height="20">
+            <a href="../index.html">Home</a>
+            <a href="quienes-somos.html">Quiénes somos</a>
+            <a href="cursos.html">Cursos</a>
+            <a href="blog.html">Blog</a>
+            <a href="registro.html">Registro</a>
+            <a href="login.html">Login</a>
+            <a href="contact.html">Contacto</a>
+            <!--Creado sin usar <ul> para que quede de manera horizontal-->
+            <hr>
+        </nav>
+        <main>
+            <h1>Contáctanos</h1>
+            <h4>Email</h4>
+            <p>info@conquerblocks.es</p>
+            <h4>Ven a nuestras oficinas</h4>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1381.7693303140927!2d-4.4153991095572955!3d36.72050267932188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f7ea43468105%3A0x4ac313755a5eb0b6!2sAyuntamiento%20de%20M%C3%A1laga!5e0!3m2!1ses!2ses!4v1732358532203!5m2!1ses!2ses" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <h4>O déjanos un mensaje y te responderemos lo antes posible</h4>
+            <form action="" method="get" enctype="multipart/form-data">
+                <!--method="get" para que no haya problemas cuando se le de a enviar-->
+                <p>
+                    <label for="name">Nombre:</label><br>
+                    <input type="text" name="name" id="name">
+                </p>
+                <p>
+                    <label for="email">Email:</label> <br>
+                    <input type="email" name="email" id="email" required>
+                </p>
+                <p>
+                    <p><label for="comment">Comentarios:</label></p>
+                    <textarea name="comentario" id="comment" cols="20" rows="10"></textarea>
+                </p>
+                <button>Enviar</button>
+            </form>
+
+        </main>
+        <footer>
+            <hr>
+            <p>&#169 Creado por JRamonCP. 2024. Para conquerblocks <a href="aviso-legal.html">Aviso legal</a></p>
+        </footer>
+    </header>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <meta name="description" content="Página de registro a la academia">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="/img/logo-conquerblocks-color-768x100.png" alt="logo de conquer blocks" height="20">
+            <a href="../index.html">Home</a>
+            <a href="quienes-somos.html">Quiénes somos</a>
+            <a href="cursos.html">Cursos</a>
+            <a href="blog.html">Blog</a>
+            <a href="registro.html">Registro</a>
+            <a href="login.html">Login</a>
+            <a href="contact.html">Contacto</a>
+            <!--Creado sin usar <ul> para que quede de manera horizontal-->
+            <hr>
+        </nav>
+        <main>
+            <h1>Formulario de registro</h1>
+            <form action="" method="post" enctype="multipart/form-data">
+                <p>
+                    <label for="name">Nombre Completo: </label>
+                    <input type="text" name="name" id="name">
+                </p>
+                
+                <p>
+                    <label for="birth">Fecha de nacimiento</label>
+                    <input type="date" name="birthday" id="birth" required>
+                </p>
+                
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" required>
+                </p>
+                <p>
+                    <label for="address">Dirección:</label>
+                    <input type="text" name="addres" id="address" required>
+                </p>
+                <p>
+                    <label for="web">Web:</label>
+                    <input type="url" name="web" id="web" requiered>
+                </p>
+                <p>
+                    <label for="foto">Fotografía:</label>
+                    <input type="file" name="foto" id="foto">
+                    <!--No required para no tener que estar subiendo fotos en las pruebas-->
+                </p>
+                <p>
+                    <p><label for="bio">Biografía</label></p>
+                    <textarea name="bio" id="bio" cols="20" rows="10"></textarea>
+                </p>
+                <button>Enviar</button>
+                <!--No funciona y va a página de error por que el metodo esta puesto en post 
+                y no hay backend-->
+                <input type="reset" name="reset" value="Borrar Formulario">
+            </form>
+        </main>
+        <footer>
+            <hr>
+            <p>&#169 Creado por JRamonCP. 2024. Para conquerblocks <a href="aviso-legal.html">Aviso legal</a></p>
+        </footer>
+    </header>
+</body>
+</html>
