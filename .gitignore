@@ -1,0 +1,32 @@
+
+# Archivos temporales del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos temporales de editores
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# Carpetas o archivos generados por herramientas
+node_modules/
+dist/
+build/
+
+# Configuración local
+.env
+.vscode/
+
+# Archivos comprimidos
+*.zip
+*.tar.gz
+*.rar
+
+# Archivos de respaldo
+*.~
+*.orig
+
+# Otros
+*.lock
